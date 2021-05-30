@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+  <head>
+    <%-include('./inc/header.ejs')%>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+        <div class="postiion-relative">
+          <div class=" position-absolute top-50 start-50 translate-middle">
+            
+            <div class="m-3 p-5 border border-dark border-4 rounded login-form">
+              
+                <form method="POST">
+                <div class="mb-2">
+                  <label for="user_form" class="form-label">Username</label>
+                  <input type="text" class="form-control" id="user_form" name="username">
+                </div>
+                <div class="mb-2">
+                  <label for="pass_form" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="pass_form" name="password">
+                </div>
+                <div class="mt-3">
+                  <button class="btn btn-primary" type="submit">Login</button>
+                </div>
+                </form>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        </div>
+</div>
+    <%-include('./inc/footer.ejs')%>
+  </body>
+</html>

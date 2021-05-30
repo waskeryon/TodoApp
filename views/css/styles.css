@@ -1,0 +1,19 @@
+body{
+    background-color: #eaeaea !important;
+}
+.login-form{
+    background-color:rgb(242, 248, 209);
+
+}
+.todo{
+    background-color: grey;
+}
+.todotext{
+    border: black;
+   border-style: solid;
+    border-radius: 5px;
+    background-color: white;
+    text:#FFF;
+    margin: 7px;
+    padding: .5rem;
+}
